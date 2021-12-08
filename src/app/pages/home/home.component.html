@@ -1,0 +1,19 @@
+<h1 class="text-center">Desafio Angular</h1>
+<div class="row mx-0 text-center">
+  <div class="col">
+    <button (click)="goToCharacters()" class="btn btn-primary">
+      Sección de personajes
+    </button>
+  </div>
+  <div class="col">
+    <button (click)="goToStudent()" class="btn btn-primary">
+      Sección de Estudiantes
+    </button>
+  </div>
+  <div class="col">
+    <button (click)="goToTeachers()" class="btn btn-primary">
+      Sección de profesores
+    </button>
+  </div>
+</div>
+<router-outlet></router-outlet>
